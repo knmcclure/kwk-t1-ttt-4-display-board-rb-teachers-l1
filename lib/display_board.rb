@@ -3,12 +3,14 @@
 
 moves = []
 
-def display_board()
-  puts ""   ", "|", "   ", "|",  "   ""
-  puts "-----------"
-  puts ""   ", "|", "   ", "|",  "   ""
-  puts "-----------"
-  puts "   ", "|", "   ", "|",  "   ""
+def display_board 
+  setup = ["   ""|""   ""|""   "]
+  dash = "-----------"
+  puts setup
+  puts dash
+  puts setup
+  puts dash
+  puts setup
 end
-
+display_board
 display_board
