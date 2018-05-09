@@ -4,13 +4,13 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board 
-  setup = ["   ""|""   ""|""   "]
+  
   dash = "-----------"
-  puts setup
+  puts " #{board[0]} ""|"" #{board[1]} ""|"" #{board[2]} "
   puts dash
-  puts setup
+  puts " #{board[3]} ""|"" #{board[4]} ""|"" #{board[5]} "
   puts dash
-  puts setup
+  puts " #{board[6]} ""|"" #{board[7]} ""|"" #{board[8]} "
 end
 display_board
 display_board
